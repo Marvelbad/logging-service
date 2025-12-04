@@ -2,7 +2,6 @@ package com.badri.logging;
 
 import com.badri.logging.service.UserService;
 import org.slf4j.MDC;
-
 import java.util.UUID;
 
 public class App {
