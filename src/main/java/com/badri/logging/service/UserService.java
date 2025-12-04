@@ -23,7 +23,28 @@ public class UserService {
     }
 
     public void deleteUser(String userName) {
-        log.warn("Deleting user: {}", userName);
+        log.info("Attempt to delete user {}", userName);
+        if (!dataBase.containsKey(userName)) {
+            log.warn("User {} not found", userName);
+            return;
+        }
+        dataBase.remove(userName, userName);
+        log.info("User {} deleted", userName);
+    }
+
+    public void updateUser(String oldName, String newName) {
+        log.info("Attempt to update user {} -> {}", oldName, newName);
+        if (!dataBase.containsKey(oldName)) {
+            log.warn("User {} not found, update aborted", oldName);
+            return;
+        }
+        if (dataBase.containsKey(newName)) {
+            log.warn("User {} already exists, cannot rename to {}", newName, newName);
+            return;
+        }
+        String old = dataBase.remove(oldName);
+        dataBase.put(newName, newName);
+        log.info("User updated: {} -> {}", oldName, newName);
     }
 
     public void failUser(String userName) {
