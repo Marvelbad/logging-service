@@ -10,3 +10,9 @@ java.lang.RuntimeException: Учебная ошибка
 2025-12-04 14:59:31 INFO  [main] c.badri.logging.service.UserService - Создаем пользователя: Badri
 2025-12-04 14:59:31 WARN  [main] c.badri.logging.service.UserService - Удаляем пользователя: Alex
 2025-12-04 14:59:31 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
+2025-12-04 15:11:04 INFO  [main] c.badri.logging.service.UserService - Создаем пользователя: Badri
+2025-12-04 15:11:04 WARN  [main] c.badri.logging.service.UserService - Удаляем пользователя: Alex
+2025-12-04 15:11:04 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
+2025-12-04 15:18:36 INFO  [main] c.badri.logging.service.UserService - Создаем пользователя: Badri
+2025-12-04 15:18:36 WARN  [main] c.badri.logging.service.UserService - Удаляем пользователя: Alex
+2025-12-04 15:18:36 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
