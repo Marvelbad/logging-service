@@ -1,9 +1,0 @@
-2025-12-04 15:29:26 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
-2025-12-04 15:30:25 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
-2025-12-04 15:30:28 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
-2025-12-04 15:30:30 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
-2025-12-04 15:30:32 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
-2025-12-04 15:30:33 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
-2025-12-04 15:30:35 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
-2025-12-04 15:38:47 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
-2025-12-04 19:27:39 ERROR [main] c.badri.logging.service.UserService - Падает пользователь: ErrorUser
