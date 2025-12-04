@@ -8,15 +8,15 @@ public class UserService {
     private static final Logger log = LoggerFactory.getLogger(UserService.class);
 
     public void createUser(String userName) {
-        log.info("Создаем пользователя: {}", userName);
+        log.info("Create user: {}", userName);
     }
 
     public void deleteUser(String userName) {
-        log.warn("Удаляем пользователя: {}", userName);
+        log.warn("Deleting user: {}", userName);
     }
 
     public void failUser(String userName) {
-        log.error("Падает пользователь: {}", userName);
-        throw new RuntimeException("Имитация ошибки");
+        log.error("Failed user: {}", userName);
+        throw new RuntimeException("Exception simulation");
     }
 }
